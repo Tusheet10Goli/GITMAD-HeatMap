@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">GitMad Heat Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="btn_enter_map">Enter Map</string>
+    <string name="btn_start_alarm">Start Alarm</string>
+    <string name="btn_stop_alarm">Stop Alarm</string>
+    <string name="txtvw_alarm_note">Note. If the alarm is on and you did not start it, then it was started when your phone was booted up.</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="username">Username</string>
+    <string name="dont_have_account">Don\'t have an account? Register Here</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="no_account_login">Enter app and create an account later</string>
+
+    <!-- Strings related to registration -->
+    <string name="create_account">Create a new account</string>
+    <string name="first_name">First Name</string>
+    <string name="first_name_colon">First Name:</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="last_name_colon">Last Name:</string>
+    <string name="name_colon">Name:</string>
+    <string name="email_colon">Email:</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+
+    <!-- Strings related to FirebaseAuth Exceptions -->
+    <string name="auth_user_not_found">That email is not associated to an account</string>
+    <string name="auth_password_error">The login credentials do not match</string>
+    <string name="auth_email_in_use">That email is already in use</string>
+    <string name="auth_invalid_email">Please enter a valid email</string>
+
+    <!-- SharedPreference keys  -->
+    <string name="pref_preferences">preferences</string>
+    <string name="pref_user_id">userId</string>
+    <string name="pref_user_username">username</string>
+    <string name="pref_first_name">first name</string>
+    <string name="pref_last_name">last name</string>
+    <string name="pref_user_email">email</string>
+
+    <!-- Strings related to Registration Exceptions -->
+    <string name="reg_invalid_email">There must be an "@" sign in your email</string>
+    <string name="reg_invalid_password">Passwords must at least be 6 characters in length</string>
+    <string name="reg_empty_email">Please enter an email</string>
+
+    <!-- Navigation header strings -->
+    <string name="nav_home_option">Home</string>
+    <string name="nav_map_option">Map</string>
+    <string name="nav_settings_option">Settings</string>
+
+    <!-- Intent extra string -->
+    <string name="intent_menu_item">MENU_ITEM</string>
+
+</resources>
